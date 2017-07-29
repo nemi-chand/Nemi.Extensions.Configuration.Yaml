@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp1.0</TargetFramework>
+    <Authors>Nemi Chand</Authors>
+    <Company>Nemi Chand</Company>
+    <Product>Yaml Extension for ASP.NET Core Configuration</Product>
+    <Description>YAML file provider for accessing configuration files. YAML extension for https://github.com/aspnet/configuration</Description>
+    <PackageProjectUrl>https://github.com/nemi-chand/Nemi.Extensions.Configuration.Yaml</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nemi-chand/</RepositoryUrl>
+    <PackageTags>Yaml yml Configuration</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

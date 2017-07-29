@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nemi.Extensions.Configurati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Configuration.Yaml", "samples\Configuration.Yaml\Configuration.Yaml.csproj", "{39AD4EA5-93A0-4801-88A3-B3D68AEE10E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AD7A3134-D547-433E-917D-C50DB7712C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nemi.Extensions.Configuration.Yaml.Test", "test\Nemi.Extensions.Configuration.Yaml.Test\Nemi.Extensions.Configuration.Yaml.Test.csproj", "{7CDF58DC-F9D6-434E-BEDB-3CE095842063}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{39AD4EA5-93A0-4801-88A3-B3D68AEE10E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39AD4EA5-93A0-4801-88A3-B3D68AEE10E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39AD4EA5-93A0-4801-88A3-B3D68AEE10E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDF58DC-F9D6-434E-BEDB-3CE095842063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDF58DC-F9D6-434E-BEDB-3CE095842063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDF58DC-F9D6-434E-BEDB-3CE095842063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDF58DC-F9D6-434E-BEDB-3CE095842063}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +40,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9CC84FCF-6B05-4301-8429-93DF4C5165A5} = {11266D05-6ACE-4F04-8076-0A8B87317947}
 		{39AD4EA5-93A0-4801-88A3-B3D68AEE10E9} = {8B6478C7-119F-4FA7-9A68-BA8DAA8585A3}
+		{7CDF58DC-F9D6-434E-BEDB-3CE095842063} = {AD7A3134-D547-433E-917D-C50DB7712C26}
 	EndGlobalSection
 EndGlobal
