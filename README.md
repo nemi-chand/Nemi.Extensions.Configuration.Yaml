@@ -15,12 +15,12 @@ dotnet add package Nemi.Extensions.Configuration.Yaml
 add AddYamlFile method in startup class
 
 ```csharp
-public Startup(IHostingEnvironment env)
-		{
-			var builder =new ConfigurationBuilder();
-			builder.SetBasePath(env.ContentRootPath);
-			builder.AddYamlFile("config.yaml",optional: false);
+   public Startup(IHostingEnvironment env)
+	{
+		var builder =new ConfigurationBuilder();
+		builder.SetBasePath(env.ContentRootPath);
+		builder.AddYamlFile("config.yaml",optional: false);
 
-			Configuration = builder.Build();
-		}
+		Configuration = builder.Build();
+	}
 ```
