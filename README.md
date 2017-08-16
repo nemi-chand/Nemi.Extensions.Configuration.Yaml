@@ -1,6 +1,8 @@
 # Nemi.Extensions.Configuration.Yaml
 YAML extension for ASP.NET Core Configuration
 
+[![NuGet Package](https://img.shields.io/nuget/v/Nemi.Extensions.Configuration.Yaml.svg)](https://www.nuget.org/packages/Nemi.Extensions.Configuration.Yaml/)
+
 Nuget Package :  https://www.nuget.org/packages/Nemi.Extensions.Configuration.Yaml
 ```csharp
 Install-Package Nemi.Extensions.Configuration.Yaml
